@@ -610,6 +610,13 @@ b{
 	-ms-box-shadow:0 0 5px rgba(0,0,0,0.06);
 	box-shadow:0 0 5px rgba(0,0,0,0.06);
 }
+
+.contact-box {
+	display: flex;
+	flex-direction: row;
+	min-width: 700px !important;
+}
+
 .panel-box:hover{
 	-webkit-box-shadow:0px 3px 5px rgba(0,0,0,0.3);
 	-moz-box-shadow:0px 3px 5px rgba(0,0,0,0.3);
@@ -621,13 +628,15 @@ b{
 	margin: 0 0 0 15px;
 }
 
-.my-interests.panel-box {
-    margin: 0;
-}
+
 .basic-info{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
 	width:100%;
 	float:left;
 	height:auto;
+	margin: 0 0 57px 0;
 }
 .basic-info li{
 	width:100%;
