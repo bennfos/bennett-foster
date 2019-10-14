@@ -611,10 +611,9 @@ b{
 	box-shadow:0 0 5px rgba(0,0,0,0.06);
 }
 
-.contact-box {
-	display: flex;
-	flex-direction: row;
-	min-width: 700px !important;
+
+.panel-box.basic-info {
+	min-height: 340px;
 }
 
 .panel-box:hover{
@@ -628,6 +627,9 @@ b{
 	margin: 0 0 0 15px;
 }
 
+ul.basic-info {
+	margin: 20px 0 65px 0;
+}
 
 .basic-info{
 	display: flex;
@@ -636,7 +638,7 @@ b{
 	width:100%;
 	float:left;
 	height:auto;
-	margin: 0 0 57px 0;
+
 }
 .basic-info li{
 	width:100%;
