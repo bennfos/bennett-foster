@@ -343,12 +343,15 @@ a.mobile-menu-opener:hover{
 	color:#1cb9c8;
 	background:none;
 }
+
+
 .logo {
-    float: left;
+
     width: 100%;
 	text-align:center;
 	padding:15px;
-	overflow:hidden;
+	margin: 15px;
+
 }
 .logo img{
 	-webkit-transition:all 0.3s ease-in-out;
@@ -612,8 +615,9 @@ b{
 }
 
 
+
 .panel-box.basic-info {
-	min-height: 340px;
+	min-height: 318px;
 }
 
 .panel-box:hover{
@@ -628,7 +632,7 @@ b{
 }
 
 ul.basic-info {
-	margin: 20px 0 65px 0;
+	margin: 20px 0 45px 0;
 }
 
 .basic-info{
@@ -637,7 +641,7 @@ ul.basic-info {
 	align-content: center;
 	width:100%;
 	float:left;
-	height:auto;
+	height: auto;
 
 }
 .basic-info li{
@@ -1256,6 +1260,22 @@ ul.basic-info {
 .post:hover .fa{
 	top:50%;
 }
+
+.nutshell {
+	padding: 0 0 36px 0;
+}
+
+.proj-card {
+	min-width: 375;
+	min-height: 675;
+	max-width: 375;
+	max-height: 675;
+}
+
+.proj-img {
+	min-height: 300px;
+}
+
 .post-bottom {
     background: #fafafa none repeat scroll 0 0;
     float: left;
